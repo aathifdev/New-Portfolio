@@ -1,4 +1,4 @@
-import ImageViewer from "./ImageViewer";
+
 
 const ResumeCard = ({ title, subTitle, result, des, link }: any) => {
   return (
@@ -21,7 +21,7 @@ const ResumeCard = ({ title, subTitle, result, des, link }: any) => {
           <div>
             <p className="px-4 py-2 text-designColor bg-black bg-opacity-25 rounded-lg flex justify-center items-center shadow-shadowOne text-sm font-medium">
               <a href={link} target="_blank">{result}</a>
-              {/* <ImageViewer /> */}
+              
             </p>
           </div>
         </div>

@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
-import { Link } from "react-scroll";
 
 const Achievement = () => {
   return (

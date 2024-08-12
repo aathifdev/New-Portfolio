@@ -3,7 +3,6 @@ import { FaLinkedinIn, FaReact, FaGithub, FaInstagram, FaLaravel } from "react-i
 import { FaDownload } from "react-icons/fa6";
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 import { FadeIn } from "./FadeIn";
-// import {resume} from "../assets/CV/Athifahd CV.pdf";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -85,11 +84,11 @@ const LeftBanner = () => {
             Download Resume
           </h2>
           <div className="flex gap-4">
-            {/* <a href={resume} download="Aathifahd's Resume" target="_blank">
+            <a href="https://github.com/aathifdev" target="_blank">
               <span className="bannerIcon">
                 <FaDownload />
               </span>
-            </a> */}
+            </a>
           </div>
         </div>
       </div>
