@@ -1,4 +1,4 @@
-import { FaFacebookF, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedinIn, } from "react-icons/fa";
 import { logo } from "../assets";
 import { FadeIn } from "./FadeIn";
 
@@ -8,22 +8,22 @@ const Footer = () => {
       <div className="w-full h-full flex flex-col gap-8">
         <img className="w-32" src={logo} alt="logo" />
         <div className="flex gap-4">
-          <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+          <a href="https://github.com/aathifdev" target="_blank">
             <span className="bannerIcon">
-              <FaYoutube />
+              <FaGithub />
             </span>
           </a>
           <a
-            href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
+            href="https://www.linkedin.com/in/aathifdev/"
             target="_blank"
           >
             <span className="bannerIcon">
               <FaLinkedinIn />
             </span>
           </a>
-          <a href="https://www.facebook.com/Noorlalu143/" target="_blank">
+          <a href="https://www.instagram.com/aathifdev?igsh=MWR0aG92Z25pY21jOQ==" target="_blank">
             <span className="bannerIcon">
-              <FaFacebookF />
+              <FaInstagram />
             </span>
           </a>
         </div>
