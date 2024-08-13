@@ -25,13 +25,13 @@ const Projects = () => {
             
           />
           <ProjectsCard
-            title="E-commerce Website"
+            title="Travel App"
             des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
             src={projectTwo}
           />
           <ProjectsCard
-            title="Chatting App"
+            title="Modern AI Web"
             des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
             src={projectThree}
