@@ -19,13 +19,13 @@ const Education = () => {
             title="Bachelor of Engineering Technology (BET) Honours Degree"
             subTitle="University of Kelaniya (2024 - 2028)"
             // result="3.90/4"
-            des="The Bachelor of Engineering Technology is a four-year degree programe. There are four paths in this degree. I am involved in Robatics and Automation. Robotics and automation involve the design and use of machines to perform tasks with precision and efficiency. Robotics focuses on creating robots, while automation uses technology to streamline processes, reducing human intervention. Together, they enhance productivity in industries like manufacturing, healthcare, and logistics."
+            des="The Bachelor of Engineering Technology is a four-year degree programe. There are four paths in this degree. I am involved in Robatics and Automation."
           />
           <ResumeCard
             title="Bachelor of Information Technology (BIT) External degree"
             subTitle="University of Colombo (2023 - 2026)"
             // result="4.75/5"
-            des=" The University of Colombo's External Degree Program offers flexible learning opportunities for students who wish to pursue higher education while managing other commitments. The program provides undergraduate degrees in various disciplines, enabling students to study remotely at their own pace. It is designed to maintain the university's high academic standards, offering quality education and recognized qualifications to a broader audience, including those who cannot attend regular on-campus classes. "
+            des=" The University of Colombo's External Degree Program offers flexible learning opportunities for students who wish to pursue higher education while managing other commitments. "
           />
           <ResumeCard
             title="GCE Advanced Level"
