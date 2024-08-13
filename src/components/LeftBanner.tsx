@@ -12,6 +12,15 @@ const LeftBanner = () => {
     deleteSpeed: 10,
     delaySpeed: 2000,
   });
+  const handleDownload = () => {
+    const cvUrl = '/public/Athifahd CV.pdf'
+    const link = document.createElement('a');
+    link.href = cvUrl;
+    link.download = 'CV.pdf'; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <FadeIn className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
@@ -84,15 +93,12 @@ const LeftBanner = () => {
             Download Resume
           </h2>
           <div className="flex gap-4">
-            <a href="https://github.com/aathifdev" target="_blank">
-              <span className="bannerIcon">
+              <span className="bannerIcon" onClick={handleDownload} style={{cursor: 'pointer'}}>
                 <FaDownload />
               </span>
-            </a>
           </div>
         </div>
       </div>
-
     </FadeIn>
   );
 };
