@@ -33,11 +33,9 @@ const LeftBanner = () => {
           <Cursor cursorStyle="|" cursorColor="#ff014f" />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wider ">
-          Highly skilled web developer with experience in designing, developing, 
-          and maintaining websites and web applications. Proficient in HTML, CSS, JavaScript, and 
-          various web development frameworks such as React, NextJs, Laravel and Bootstrap. Strong 
-          understanding of responsive design and cross-browser compatibility. Ability to effectively 
-          communicate with clients and team members to deliver successful projects on time and within budget.
+          A professional software engineer knows that writing clean, efficient code is both an art and a discipline. 
+          Simplicity and clarity should always be prioritized, as they lead to maintainable and scalable solutions. 
+          Remember, solving the problem comes before writing code.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">

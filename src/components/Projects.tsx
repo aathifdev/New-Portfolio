@@ -19,21 +19,21 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
           <ProjectsCard
             title="Resturant Web"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+            des=" Gericht restaurants are known for delivering the highest level of customer service.
+            Guests expect elegant ambiance, upscale table settings, and a menu with higher price points. "
             src={projectOne}
             
           />
           <ProjectsCard
             title="Travel App"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+            des=" We want to be on each of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature. 
+            We can help you on an adventure around the world in just one app"
             src={projectTwo}
           />
           <ProjectsCard
             title="Modern AI Web"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+            des=" Yet bed any for travelling assistance indulgence unpleasing Not thoughts all exercise blessing. 
+            Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of."
             src={projectThree}
           />
           <ProjectsCard

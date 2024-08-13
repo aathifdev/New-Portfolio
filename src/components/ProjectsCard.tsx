@@ -1,4 +1,5 @@
 import { BsGithub } from "react-icons/bs";
+import { FaComputer } from "react-icons/fa6";
 // import { FaYoutube } from "react-icons/fa";
 // import { FaComputer } from "react-icons/fa6";
 
@@ -30,11 +31,11 @@ const ProjectsCard = ({ title, des, src,  }: Props) => {
                   <BsGithub />
                 </span>
               </a>
-              {/* <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+              <a href="https://github.com/aathifdev" target="_blank">
                 <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                   <FaComputer />
                 </span>
-              </a> */}
+              </a>
             </div>
           </div>
           <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
