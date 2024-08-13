@@ -1,5 +1,5 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaLinkedinIn, FaReact, FaGithub, FaInstagram, FaLaravel } from "react-icons/fa";
+import { FaLinkedinIn, FaReact, FaGithub, FaInstagram, FaLaravel, FaFacebook } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa6";
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 import { FadeIn } from "./FadeIn";
@@ -62,6 +62,11 @@ const LeftBanner = () => {
             <a href="https://www.instagram.com/aathifdev?igsh=MWR0aG92Z25pY21jOQ==" target="_blank">
               <span className="bannerIcon">
                 <FaInstagram />
+              </span>
+            </a>
+            <a href="https://www.facebook.com/aathifdev?mibextid=qi2Omg&rdid=peG0wF5Zlcypax17&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FtLBMsBduzTQiYMvj%2F%3Fmibextid%3Dqi2Omg" target="_blank">
+              <span className="bannerIcon">
+                <FaFacebook />
               </span>
             </a>
           </div>

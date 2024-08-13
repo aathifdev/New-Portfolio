@@ -15,7 +15,7 @@ const ContactLeft = () => {
           Full Stack Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-        A Full Stack Developer is a versatile software professional skilled in both front-end and back-end development. They are proficient in creating and managing databases, building server-side application logic, and crafting responsive and user-friendly interfaces. Full Stack Developers are adept at using a variety of programming languages, frameworks, and tools to design, develop, and maintain end-to-end web applications. Their broad knowledge allows them to work across different layers of the technology stack, from designing the user experience to managing server configurations and ensuring seamless integration between the front-end and back-end systems.
+        A Full Stack Developer is a versatile software professional skilled in both front-end and back-end development. They are proficient in creating and managing databases, building server-side application logic, and crafting responsive and user-friendly interfaces.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+94 76 202 0647</span>
