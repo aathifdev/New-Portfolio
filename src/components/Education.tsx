@@ -18,13 +18,13 @@ const Education = () => {
           <ResumeCard
             title="Bachelor of Engineering Technology (BET) Honours Degree"
             subTitle="University of Kelaniya (2024 - 2028)"
-            // result="3.90/4"
+            result="Pending"
             des="The Bachelor of Engineering Technology is a four-year degree programe. There are four paths in this degree. I am involved in Robatics and Automation."
           />
           <ResumeCard
             title="Bachelor of Information Technology (BIT) External degree"
             subTitle="University of Colombo (2023 - 2026)"
-            // result="4.75/5"
+            result="Pending"
             des=" The University of Colombo's External Degree Program offers flexible learning opportunities for students who wish to pursue higher education while managing other commitments. "
           />
           <ResumeCard
@@ -33,6 +33,7 @@ const Education = () => {
             result="Z-core 1.7107"
             des="Completed the GCE Avanced Level examination in the stream of Engineering Technology. Obtained 2B and C passes in GCE Advanced Level examination."
           />
+          
         </div>
       </div>
     </motion.div>
