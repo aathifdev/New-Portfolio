@@ -1,4 +1,4 @@
-import {  FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
+import {  FaLinkedinIn, FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { contactImg } from "../assets";
 
 const ContactLeft = () => {
@@ -27,6 +27,14 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
+        <a
+            href="https://wa.me/message/OLHLIYUHRA33P1 "
+            target="_blank"
+          >
+            <span className="bannerIcon">
+              <FaWhatsapp />
+            </span>
+          </a>
           <a href="https://github.com/aathifdev" target="_blank">
             <span className="bannerIcon">
               <FaGithub />
