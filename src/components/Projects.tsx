@@ -1,6 +1,6 @@
 import Title from "./Title";
 import ProjectsCard from "./ProjectsCard";
-import { projectOne, projectThree, projectTwo } from "../assets";
+import { projectFive, projectFour, projectOne, projectThree, projectTwo,  } from "../assets";
 import { FadeIn } from "./FadeIn";
 
 const Projects = () => {
@@ -32,21 +32,21 @@ const Projects = () => {
           />
           <ProjectsCard
             title="Modern AI Web"
-            des=" Yet bed any for travelling assistance indulgence unpleasing Not thoughts all exercise blessing. 
-            Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of."
+            des=" Moder AI empowers your business with cutting-edge AI solutions, enhancing efficiency and innovation. 
+            Discover tailored AI services that drive growth, streamline operations, and unlock your potential."
             src={projectThree}
           />
           <ProjectsCard
-            title="SOCIAL MEDIA CLONE"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectThree}
+            title="E-Commerce Website"
+            des=" Experience immersive sound with AirPods Pro. Featuring active noise cancellation, 
+            customizable fit, and superior audio quality, they deliver unparalleled listening comfort and clarity wherever you go."
+            src={projectFour}
           />
           <ProjectsCard
             title="E-commerce Website"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectOne}
+            des=" Shop the latest trends and essentials at unbeatable prices. Our e-commerce platform offers a seamless shopping experience with fast shipping, 
+            secure payments, and 24/7 customer support. Start shopping today!"
+            src={projectFive}
           />
           <ProjectsCard
             title="Chatting App"

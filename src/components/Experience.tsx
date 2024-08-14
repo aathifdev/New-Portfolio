@@ -26,12 +26,12 @@ const Experience = () => {
             result="Sri Lanka"
             des="I am also associated with IT Starter Pvt Ltd, where I work as a project manager, content writer and web developer."
           />
-          <ResumeCard
+          {/* <ResumeCard
             title="Full Stack Developer"
             subTitle="CenoDigital - (2022 - Present)"
             result="Sri Lanka"
             des="Led cross-functional teams of 6 members to successfully deliver a project, enhancing client satisfication by 80%."
-          />
+          /> */}
         </div>
       </div>
     </motion.div>
