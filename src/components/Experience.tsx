@@ -17,7 +17,7 @@ const Experience = () => {
           <ResumeCard
             title="Software Engineer & Web Developer"
             subTitle="CenoDigital - (2023 - Present)"
-            result="United Kingdom"
+            result="Sri Lanka"
             des="I am the Co-Founder of CenoDigital, where I work in multiple roles, including HR, Project Manager, Software Developer and Web Developer."
           />
           <ResumeCard
