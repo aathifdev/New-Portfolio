@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.7.4",
+    "emailjs-com": "^3.2.0",
     "framer-motion": "^10.16.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -17,7 +19,8 @@
     "react-scroll": "^1.8.9",
     "react-simple-typewriter": "^5.0.1",
     "react-slick": "^0.29.0",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

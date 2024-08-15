@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import emailjs from "emailjs-com"; // Import EmailJS
 import ContactLeft from "./ContactLeft";
 import Title from "./Title";
 import { FadeIn } from "./FadeIn";
@@ -13,40 +13,48 @@ const Contact = () => {
   const [errMsg, setErrMsg] = useState("");
   const [successMsg, setSuccessMsg] = useState("");
 
-  // ========== Email Validation start here ==============
-  const emailValidation = (email: string) => {
-    return String(email)
-      .toLocaleLowerCase()
-      .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
-  };
-  // ========== Email Validation end here ================
-
   const handleSend = (e: any) => {
     e.preventDefault();
+
     if (username === "") {
       setErrMsg("Username is required!");
     } else if (phoneNumber === "") {
       setErrMsg("Phone number is required!");
     } else if (email === "") {
       setErrMsg("Please give your Email!");
-    } else if (!emailValidation(email)) {
-      setErrMsg("Give a valid Email!");
     } else if (subject === "") {
-      setErrMsg("Plese give your Subject!");
+      setErrMsg("Please give your Subject!");
     } else if (message === "") {
       setErrMsg("Message is required!");
     } else {
-      setSuccessMsg(
-        `Thank you dear ${username}, Your Messages has been sent Successfully!`
-      );
-      setErrMsg("");
-      setUsername("");
-      setPhoneNumber("");
-      setEmail("");
-      setSubject("");
-      setMessage("");
+      // Send email using EmailJS
+      emailjs.send(
+        'service_9rf9nei',  // Replace with your service ID
+        'template_xfzuqn9', // Replace with your template ID
+        {
+          from_name: username,
+          to_name: "Recipient Name",
+          phone_number: phoneNumber,
+          from_email: email,
+          subject: subject,
+          message: message,
+        },
+        'tSaCDSVC7t404NdRQ' // Replace with your user ID
+      )
+      .then(() => {
+        setSuccessMsg("Your message has been sent successfully!");
+        setErrMsg("");
+        setUsername("");
+        setPhoneNumber("");
+        setEmail("");
+        setSubject("");
+        setMessage("");
+      }, () => {
+        setErrMsg("Failed to send your message, please try again.");
+      });
     }
   };
+
   return (
     <section
       id="contact"
@@ -151,16 +159,6 @@ const Contact = () => {
                     Send Message
                   </button>
                 </div>
-                {errMsg && (
-                  <p className="py-3 bg-gradient-to-r from-[#141518] to-[#141518] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
-                    {errMsg}
-                  </p>
-                )}
-                {successMsg && (
-                  <p className="py-3 bg-gradient-to-r from-[#141518] to-[#141518] shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
-                    {successMsg}
-                  </p>
-                )}
               </form>
             </div>
           </div>
