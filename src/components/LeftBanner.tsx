@@ -8,12 +8,12 @@ const LeftBanner = () => {
   const [text] = useTypewriter({
     words: ["Professional Coder.", "Full Stack Developer."," Web Developer."],
     loop: true,
-    typeSpeed: 20,
+    typeSpeed: 30,
     deleteSpeed: 10,
     delaySpeed: 2000,
   });
   const handleDownload = () => {
-    const cvUrl = '/public/Athifahd CV.pdf'
+    const cvUrl = 'Athifahd CV.pdf'
     const link = document.createElement('a');
     link.href = cvUrl;
     link.download = 'CV.pdf'; 

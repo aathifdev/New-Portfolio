@@ -1,6 +1,6 @@
 import Title from "./Title";
 import ProjectsCard from "./ProjectsCard";
-import { projectFive, projectFour, projectOne, projectThree, projectTwo,  } from "../assets";
+import { projectFive, projectFour, projectOne, projectSix, projectThree, projectTwo,  } from "../assets";
 import { FadeIn } from "./FadeIn";
 
 const Projects = () => {
@@ -49,10 +49,9 @@ const Projects = () => {
             src={projectFive}
           />
           <ProjectsCard
-            title="Chatting App"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectTwo}
+            title="Internet of Things (IOT) "
+            des=" The Internet of Things (IoT) represents a significant technological advancement, where everyday objects are interconnected through the internet, allowing them to send and receive data. "
+            src={projectSix}
           />
         </div>
       </FadeIn>
