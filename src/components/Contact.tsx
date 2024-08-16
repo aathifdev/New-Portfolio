@@ -13,17 +13,14 @@ const Contact = () => {
   const [errMsg, setErrMsg] = useState("");
   const [successMsg, setSuccessMsg] = useState("");
 
-   // ========== Email Validation start here ==============
-   const emailValidation = (email: string) => {
-    return String(email)
-      .toLocaleLowerCase()
-      .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
-  };
+  // ========== Email Validation start here ==============
+    const emailValidation = (email: string): boolean => {
+      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.toLowerCase());
+    };
   // ========== Email Validation end here ================
 
   const handleSend = (e: any) => {
     e.preventDefault();
-
     if (username === "") {
       setErrMsg("Username is required!");
     } else if (phoneNumber === "") {
