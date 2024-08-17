@@ -43,9 +43,8 @@ const Projects = () => {
             src={projectFour}
           />
           <ProjectsCard
-            title="E-commerce Website"
-            des=" Shop the latest trends and essentials at unbeatable prices. Our e-commerce platform offers a seamless shopping experience with fast shipping, 
-            secure payments, and 24/7 customer support. Start shopping today!"
+            title="BUG Fixing"
+            des=" Bug fixing is the process of identifying, analyzing, and resolving issues or flaws in software that cause it to behave unexpectedly, produce incorrect results, or perform inefficiently."
             src={projectFive}
           />
           <ProjectsCard
