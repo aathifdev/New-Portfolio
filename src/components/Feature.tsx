@@ -1,10 +1,11 @@
-import { FaMobile, FaGlobe, FaShoppingCart } from "react-icons/fa";
+import { FaMobile, FaGlobe, } from "react-icons/fa";
 import { SiAntdesign } from "react-icons/si";
 import Card from "./Card";
 import Title from "./Title";
 import { FadeIn } from "./FadeIn";
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { CgWebsite } from "react-icons/cg";
+import { VscDebugConsole } from "react-icons/vsc";
 
 
 const Feature = () => {
@@ -27,14 +28,14 @@ const Feature = () => {
             icon={<HiOutlineDesktopComputer />}
           />
           <Card
-            title="E-Commerce"
-            des="We can design E-Commerce or electronic commerce websites for trading goods and selling using online."
-            icon={<FaShoppingCart />}
-          />
-          <Card
             title="Mobile Development"
             des="Mobile application development is the process of creating software applications that run on a mobile device."
             icon={<FaMobile />}
+          />
+          <Card
+            title="Bug Fixing"
+            des="Effective bug fixing is crucial for maintaining software quality and performance."
+            icon={<VscDebugConsole />}
           />
           <Card
             title="Hosting Websites"
