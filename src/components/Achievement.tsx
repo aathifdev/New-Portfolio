@@ -29,7 +29,7 @@ const Achievement = () => {
             des=" I was also selected for the second competition held in Bali, Indonesia. Organized by the Asia-Pacific Regional Space Agency Forum."
           />
           <ResumeCard
-            title="Robatics Workshop"
+            title="Robotics Workshop"
             subTitle="organized by SCCIP Japan Co. Ltd."
             result="view"
             link="https://laravel.com/"
